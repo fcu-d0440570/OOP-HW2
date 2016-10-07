@@ -12,7 +12,7 @@ public class KeyboardScanner {
 		floatInput = scanner.nextFloat();
 		System.out.print("Enter a you name:");
 		stringInput = scanner.next();
-		System.out.format("Hi %s, the multiplication of %d and %f is %e.", stringInput, intInput, floatInput,
+		System.out.format("Hi %s, the multiplication of %d and %f is %.2e.", stringInput, intInput, floatInput,
 				intInput * floatInput);
 	}
 }
